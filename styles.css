@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://marketplace.canva.com/EAFCytpuJ08/1/0/1600w/canva-green-wateroclor-leaf-linktree-background-0Mp0WYk6_8E.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul a {
+    color: rgb(255, 68, 0);
+    position: relative;
+    padding: 5px 0
+}
+
+nav ul li a:hover {
+    color: deeppink;
+}
+
+nav ul a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    background-color: deeppink;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul a:hover:after {
+    width: 100%;
+}
+
+.btn {
+    color: orange;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 400px;
+    display: inline-block;
+    font-weight: 450;
+    transition: .4s ease-in-out;
+    background-size: 150% 100%;
+    background-color: pink;
+    border: 1px solid green;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: deeppink;
+    color: deeppink;
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.content.title {
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.6% #7644ff 50.20% #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content.h1 {
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 80px;
+    text-transform: inherit;
+    width: 70%;
+}
+
+.content h1 span {
+    color: deeppink;
+}
+
+.content p {
+    width: 55%;
+    color: red;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    position: absolute;
+    top: 35%;
+    right: 30%;
+}
+.back-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),url("https://sendpulse.com/blog/wp-content/uploads/2021/07/ux-research-cover-1-1200x720.png");
+    height:100vh;
+    background-size:cover;
+    border-radius:5px;
+}
+
+.head {
+    color: red;
+    font-family: "ROBOTO";
+    text-align:center;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 8px;
+    border-color: cyan;
+    border-width: 80px;
+    border:30px;
+    padding:10px;
+    margin:10px;
+   }
+.card-container2 {
+    background-color:white;
+    border-radius: 8px;
+    border-color: cyan;
+    border-width: 80px;
+    border:30px;
+    padding:10px;
+    margin:10px;
+   } 
+.card-container3 {
+    background-color:white;
+    border-radius: 8px;
+    border-width: 80px;
+    border:30px;
+    padding:10px;
+    margin:10px;
+   }
+.card-container4 {
+    background-color: white;
+    border-radius: 8px;
+    border-color: cyan;
+    border-width: 80px;
+    border:30px;
+    padding:10px;
+    margin:10px;
+   }
+
+.heading {
+    color: rgb(248, 16, 136);
+}
+
+.para {
+    color: black;
+    font-family: serif;
+    
+}
+.image1{
+    width:80px;
+    height:80px;
+    border-radius:7px;
+}
+.image2{
+    width:80px;
+    height:80px;
+    border-radius:7px;
+    text-align:right;
+}
+.image3{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    border-color:transparent;
+}
+.image4{
+    width:100px;
+    height:100px;
+    border-radius:15px;
+}

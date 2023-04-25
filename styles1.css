@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("https://bigcatsindia.com/wp-content/uploads/2018/06/Royal-Bengal-Tiger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    color: white;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+.button1 {
+    background-color: cyan;
+    color:black;
+    font-family: serif;
+    border-radius: 7px;
+    height: 30px;
+    width: 75px;
+    font-weight: bold
+}
+
+nav ul li a:hover {
+    background-color: tomato;
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: #eb7620;
+}
+
+.article {
+    width: 50%;
+    color: red;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h {
+    font-size: 36px;
+    color: red;
+    letter-spacing: 1.5px;
+    font-family: serif;
+    margin-bottom: 25px;
+}
+
+.article p {
+    font-size: 18px;
+    color:white;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-family: serif;
+
+}
+
+.article btn {
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: violet;
+}
+
+.article .btn:hover {
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
